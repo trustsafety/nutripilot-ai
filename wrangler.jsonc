@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "nutripilot-ai",
+  "compatibility_date": "2026-10-17",
+  "pages_build_output_dir": "./dist",
+  "secrets": { "required": ["GEMINI_API_KEY"] },
+  "observability": { "enabled": true, "head_sampling_rate": 0.1 }
+}
